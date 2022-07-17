@@ -1,0 +1,49 @@
+.Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 180vh;
+    background-image: linear-gradient(to top, rgb(110, 0, 183), white);
+}
+.Details > button{
+    margin-top: 1%;
+    width: 25%;
+    height: 8vh;
+    background-image: linear-gradient(to bottom, rgb(255, 67, 25), white);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 5px 8px 10px grey;
+    border-radius: 10px;
+}
+
+.Details > button:hover{
+    transform: scale(1.12, 1.12);
+    box-shadow: 5px 8px 10px black;
+    cursor: pointer;
+}
+.canvas{
+    width: 90%;
+    margin-top: 5%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.canvas > img{
+    width: 100%;
+    height: 50vh;
+}
+
+.detailsCanvas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    min-height: 10vh;
+    margin-bottom: 5%;
+}
